@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -16,7 +16,7 @@
             <option value="Español" selected>Español</option>
             <option value="Inglés" selected>Inglés</option>
           </select>
-  
+
           <select name="moneda" id="moneda">
             <option value="ARG$" selected>ARG$</option>
             <option value="US$" selected>US$</option>
@@ -52,12 +52,15 @@
         <div class="featured-headding">
           <img src="/images/pawprint 1.png" alt="huella perro" />
           <h2>Productos Destacados</h2>
-          <p><span>Comederos</span>  - <span>Accesorios</span>  - <span>Comida</span></p>
+          <p>
+            <span>Comederos</span> - <span>Accesorios</span> -
+            <span>Comida</span>
+          </p>
         </div>
 
         <div class="product-cart-container">
           <figure>
-            <img src="/images/churrasquito.png" alt="churrasquito">
+            <img src="/images/churrasquito.png" alt="churrasquito" />
             <figcaption>
               <p>Juguete Churrasquito</p>
               <span>$150</span>
@@ -65,7 +68,7 @@
           </figure>
 
           <figure>
-            <img src="/images/comedero.png" alt="comedero">
+            <img src="/images/comedero.png" alt="comedero" />
             <figcaption>
               <p>Comedero para perro</p>
               <span>$250</span>
@@ -73,7 +76,7 @@
           </figure>
 
           <figure>
-            <img src="/images/Huesito.png" alt="Huesito">
+            <img src="/images/Huesito.png" alt="Huesito" />
             <figcaption>
               <p>Juguete Huesito</p>
               <span>$650</span>
@@ -85,9 +88,19 @@
       <section class="contact-form">
         <h3>Contáctanos</h3>
         <form action="">
-          <input type="text" id="name" name="name" placeholder="Nombre y Apellido" />
-          <input type="text" id="name" name="name" placeholder="Ingresá tu correo electrónico"/>
-          <input type="text" id="name" name="name" placeholder="Teléfono"/>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nombre y Apellido"
+          />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ingresá tu correo electrónico"
+          />
+          <input type="text" id="name" name="name" placeholder="Teléfono" />
           <div>
             <button>Resetear</button>
             <button>Enviar</button>
@@ -97,39 +110,40 @@
     </body>
 
     <footer>
-      <section>
-        <div>
-          <img src="/images/Group.png" alt="email logo">
+      <section class="subscription">
+        <div class="subscription-text">
+          <img src="/images/Group.png" alt="email logo" />
           <p>Suscríbete para más novedades</p>
         </div>
-        <div>
-          <input type="text" placeholder="Ingresá tu correo electronico">
+        <form class="subscription-form">
+          <input type="text" placeholder="Ingresá tu correo electronico" />
           <button>Sucribirse</button>
-        </div>
-        <section>
-          <article>
-            <div>
-              <img src="/images/Icono.png" alt="ubicación icono">
-              <p>Localidad</p>
-              <span>Calle - provincia</span>
-            </div>
-
-            <div>
-              <img src="/images/Icono (1).png" alt="telefono icono">
-              <p>Teléfono</p>
-              <span>Número de teléfono</span>
-            </div>
-
-            <div>
-              <img src="/images/Icono (2).png" alt="email icono">
-              <p>Correo Electrónico</p>
-              <span>Dirección de correo</span>
-            </div>
-          </article>
-
-          <img src="/images/Logo.png" alt="front cat and dog logo">
-        </section>
+        </form>
       </section>
+      <section>
+        <article>
+          <div>
+            <img src="/images/Icono.png" alt="ubicación icono" />
+            <p>Localidad</p>
+            <span>Calle - provincia</span>
+          </div>
+
+          <div>
+            <img src="/images/Icono (1).png" alt="telefono icono" />
+            <p>Teléfono</p>
+            <span>Número de teléfono</span>
+          </div>
+
+          <div>
+            <img src="/images/Icono (2).png" alt="email icono" />
+            <p>Correo Electrónico</p>
+            <span>Dirección de correo</span>
+          </div>
+        </article>
+
+        <img src="/images/Logo.png" alt="front cat and dog logo" />
+      </section>
+
       <section>
         <p>Todos los derechos reservados Front End</p>
       </section>
